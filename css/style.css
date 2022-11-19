@@ -96,9 +96,6 @@ body {
     flex-direction: column;
 }
 
-.page {
-    flex: 1 1 auto;
-}
 
 [class*="__container"] {
     max-width: 1920px;
@@ -124,26 +121,33 @@ body {
     }
 }
 
-.header {}
+.header {
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
     min-height: 113px;
     position: absolute;
     width: 1919px;
-    left: 560px;
     align-items: center;
     padding: 10px 0;
     background: #0A0A0A;
     color: #717171;
 }
-nav.header__menu {}
+
+nav.header__menu {
+}
+
 .menu__list {
     display: flex;
     gap: 30px;
     margin-left: 310px;
 }
-.menu__item {}
+
+.menu__item {
+}
+
 .menu__link {
     font-style: normal;
     font-weight: 400;
@@ -153,11 +157,17 @@ nav.header__menu {}
     color: #717171;
 }
 
-li.menu__item {}
-a.menu__link {}
+li.menu__item {
+}
 
-li.menu__item {}
-a.menu__link {}
+a.menu__link {
+}
+
+li.menu__item {
+}
+
+a.menu__link {
+}
 
 .header__logo {
     position: absolute;
@@ -167,6 +177,7 @@ a.menu__link {}
     bottom: 95.44%;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
 .header__phone {
     margin-right: 360px;
     font-weight: 400;
@@ -181,10 +192,10 @@ a.menu__link {}
     position: absolute;
     width: 1918px;
     height: 980px;
-    left: 560px;
     top: 113px;
     background: #F5F5F7;
 }
+
 .header__img {
     position: absolute;
     width: 937px;
@@ -192,6 +203,7 @@ a.menu__link {}
     left: 380px;
     top: 200px;
 }
+
 .header__H1 {
     position: absolute;
     width: 481.5px;
@@ -204,6 +216,7 @@ a.menu__link {}
     color: #490E84;
 
 }
+
 button.header__button {
     position: absolute;
     width: 349.64px;
@@ -222,3 +235,290 @@ button.header__button {
     color: #ffffff;
 }
 
+.page {
+
+}
+
+.page__whats_new {
+
+}
+
+.page__h1 {
+    position: absolute;
+    width: 215px;
+    height: 39px;
+    left: 740px;
+    top: 1180px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #717171;
+}
+
+.page__p1 {
+    position: absolute;
+    width: 559.07px;
+    height: 90px;
+    left: 359.93px;
+    top: 1269px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p2 {
+    position: absolute;
+    width: 559.07px;
+    height: 54px;
+    left: 359.93px;
+    top: 1389px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p3 {
+    position: absolute;
+    width: 559.07px;
+    height: 54px;
+    left: 359.93px;
+    top: 1473px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p_bold {
+    position: absolute;
+    width: 560px;
+    height: 156px;
+    left: 359px;
+    top: 1557px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__img {
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    left: 1110px;
+    top: 1306px;
+}
+
+.page__color_phone {
+
+}
+
+.page__h1_color {
+    position: absolute;
+    width: 331px;
+    height: 39px;
+    left: 660px;
+    top: 1863px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #717171;
+}
+
+.page__img_color1 {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    left: 359px;
+    top: 1952px;
+    border-radius: 30px;
+}
+
+.page__img_color2 {
+
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    left: 679px;
+    top: 1952px;
+    border-radius: 30px;
+}
+
+.page__img_color3 {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    left: 999px;
+    top: 1952px;
+    border-radius: 30px;
+}
+
+.page__img_color4 {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    left: 1319px;
+    top: 1952px;
+    border-radius: 30px;
+}
+
+.page__h2_1 {
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 451px;
+    top: 2292px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__h2_2 {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 739px;
+    top: 2292px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__h2_3 {
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 1096px;
+    top: 2292px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__h2_4 {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 1379px;
+    top: 2292px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p5 {
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 432px;
+    top: 2328px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p6 {
+    position: absolute;
+    width: 132px;
+    height: 18px;
+    left: 733px;
+    top: 2328px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p7 {
+    position: absolute;
+    width: 58px;
+    height: 18px;
+    left: 1090px;
+    top: 2328px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__p8 {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    left: 1365px;
+    top: 2328px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+
+.page__form {
+    position: absolute;
+    left: 959px;
+    top: 2496px;
+}
+
+.page__form1 {
+    display: flex;
+    background: #574B63;
+    color: #ffffff;
+}
+
+.page__form_input {
+    width: 100%;
+    padding: 140px 100px;
+}
+
+.page__img_form {
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.page__form_name {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #574B63;
+}
+
+.page__form_name::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.page__form_input p{
+    opacity: 0.5;
+    text-align: center;
+    margin: 30px 0;
+}
