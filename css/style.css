@@ -476,7 +476,7 @@ button.header__button {
 
 .page__form {
     position: absolute;
-    left: 959px;
+    left: 370px;
     top: 2496px;
 }
 
@@ -489,16 +489,23 @@ button.header__button {
 .page__form_input {
     width: 100%;
     padding: 140px 100px;
+    text-align: center;
 }
 
-.page__img_form {
+.page__h1_form {
     margin: 0 0 60px;
     text-transform: uppercase;
     font-size: 32px;
     line-height: 39px;
+    font-weight: 700;
 }
 
-.page__form_name {
+.page__img_form {
+
+}
+
+.page__form_name,
+.page__form_tel {
     padding: 10px 0;
     border: none;
     border-bottom: 1px solid #ffffff;
@@ -508,7 +515,8 @@ button.header__button {
     background-color: #574B63;
 }
 
-.page__form_name::placeholder {
+.page__form_name::placeholder,
+.page__form_tel::placeholder {
     font-size: 14px;
     line-height: 18px;
     color: white;
@@ -517,8 +525,66 @@ button.header__button {
     font-weight: 400;
 }
 
-.page__form_input p{
+.page__form_input p {
     opacity: 0.5;
     text-align: center;
     margin: 30px 0;
+}
+
+.page__form_input button {
+    border: none;
+    text-transform: uppercase;
+    color: #490E84;
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    top: 3096px;
+    background-color: #0A0A0A;
+    justify-content: space-between;
+    max-height: 150px;
+    width: 1663px;
+    align-items: center;
+
+}
+
+.footer__container {
+    color: #717171;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 290px;
+    margin-right: 50px;
+    padding: 50px 0;
+
+
+}
+
+.footer__link {
+    color: #717171;
+
+}
+
+.footer__logo {
+
+}
+
+.footer__img {
+
+}
+
+.footer__phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #717171;
+    width: 221px;
+    height: 29px;
+
 }
